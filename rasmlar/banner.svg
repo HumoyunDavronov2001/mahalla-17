@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="MAHALLA 17 — mahalla xodimlarining yagona ish platformasi">
+  <defs>
+    <linearGradient id="fon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#060f36"/>
+      <stop offset="1" stop-color="#0d1f63"/>
+    </linearGradient>
+    <radialGradient id="nur" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#D9A520" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#D9A520" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="tor" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#14246b" stroke-width="1"/>
+    </pattern>
+    <style>
+      .sarlavha{font:800 54px 'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif;fill:#f8fafc;letter-spacing:1px}
+      .izoh{font:500 22px 'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif;fill:#a5b4e8}
+      .teg{font:600 15px 'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif;fill:#cbd5e1}
+      .raqam{font:800 46px 'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif;fill:#D9A520}
+      .yorliq{font:700 11px 'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif;fill:#a5b4e8;letter-spacing:2px}
+    </style>
+  </defs>
+  <rect width="1280" height="360" fill="url(#fon)"/>
+  <rect width="1280" height="360" fill="url(#tor)" opacity=".55"/>
+
+  <g transform="translate(64 0)">
+    <rect x="0" y="70" width="56" height="56" rx="14" fill="#2340D9"/>
+    <path d="M28 82 L44 94 L44 114 L12 114 L12 94 Z" fill="none" stroke="#f8fafc" stroke-width="3.2" stroke-linejoin="round"/>
+    <rect x="23" y="100" width="10" height="14" fill="#D9A520"/>
+    <text class="sarlavha" x="0" y="190">MAHALLA 17</text>
+    <text class="izoh" x="0" y="232">17 lavozim · murojaat · ish daftarlari · dalil va tasdiq</text>
+    <g transform="translate(0 270)">
+      <rect width="80" height="30" rx="15" fill="#1a2a78"/><text class="teg" x="40" y="20" text-anchor="middle">Python</text>
+      <rect x="90" width="86" height="30" rx="15" fill="#1a2a78"/><text class="teg" x="133" y="20" text-anchor="middle">SQLite</text>
+      <rect x="186" width="66" height="30" rx="15" fill="#1a2a78"/><text class="teg" x="219" y="20" text-anchor="middle">PWA</text>
+      <rect x="262" width="62" height="30" rx="15" fill="#1a2a78"/><text class="teg" x="293" y="20" text-anchor="middle">SSE</text>
+      <rect x="334" width="102" height="30" rx="15" fill="#1a2a78"/><text class="teg" x="385" y="20" text-anchor="middle">Telegram</text>
+    </g>
+  </g>
+
+  <!-- 17 lavozim halqasi: har biri navbat bilan markazga ulanadi (SMIL) -->
+  <g>
+    <circle cx="1010" cy="180" r="150" fill="url(#nur)"/>
+    <circle cx="1010" cy="180" r="112" fill="none" stroke="#2a3c95" stroke-width="1.2" stroke-dasharray="3 6">
+      <animateTransform attributeName="transform" type="rotate" from="0 1010 180" to="360 1010 180" dur="50s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="1010" y1="180" x2="1010.0" y2="68.0" stroke="#D9A520" stroke-opacity=".15" stroke-width="1.6">
+      <animate attributeName="stroke-opacity" values=".15;.15;.8;.8;.15" keyTimes="0;.08;.18;.85;1" dur="7s" begin="0.00s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="1010.0" cy="68.0" r="11" fill="#0d1a4f" stroke="#2340D9" stroke-width="3"/>
+    <circle cx="1010.0" cy="68.0" r="5" fill="#2340D9" opacity=".35">
+      <animate attributeName="opacity" values=".35;.35;1;1;.35" keyTimes="0;.08;.18;.85;1" dur="7s" begin="0.00s" repeatCount="indefinite"/>
+    </circle><line x1="1010" y1="180" x2="1050.5" y2="75.6" stroke="#D9A520" stroke-opacity=".15" stroke-width="1.6">
+      <animate attributeName="stroke-opacity" values=".15;.15;.8;.8;.15" keyTimes="0;.08;.18;.85;1" dur="7s" begin="0.18s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="1050.5" cy="75.6" r="11" fill="#0d1a4f" stroke="#0E7490" stroke-width="3"/>
+    <circle cx="1050.5" cy="75.6" r="5" fill="#0E7490" opacity=".35">
+      <animate attributeName="opacity" values=".35;.35;1;1;.35" keyTimes="0;.08;.18;.85;1" dur="7s" begin="0.18s" repeatCount="indefinite"/>
+    </circle><line x1="1010" y1="180" x2="1085.5" y2="97.2" stroke="#D9A520" stroke-opacity=".15" stroke-width="1.6">
+      <animate attributeName="stroke-opacity" values=".15;.15;.8;.8;.15" keyTimes="0;.08;.18;.85;1" dur="7s" begin="0.36s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="1085.5" cy="97.2" r="11" fill="#0d1a4f" stroke="#A21CAF" stroke-width="3"/>
+    <circle cx="1085.5" cy="97.2" r="5" fill="#A21CAF" opacity=".35">
+      <animate attributeName="opacity" values=".35;.35;1;1;.35" keyTimes="0;.08;.18;.85;1" dur="7s" begin="0.36s" repeatCount="indefinite"/>
+    </circle><line x1="1010" y1="180" x2="1110.3" y2="130.1" stroke="#D9A520" stroke-opacity=".15" stroke-width="1.6">
+      <animate attributeName="stroke-opacity" values=".15;.15;.8;.8;.15" keyTimes="0;.08;.18;.85;1" dur="7s" begin="0.54s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="1110.3" cy="130.1" r="11" fill="#0d1a4f" stroke="#15803D" stroke-width="3"/>
+    <circle cx="1110.3" cy="130.1" r="5" fill="#15803D" opacity=".35">
+      <animate attributeName="opacity" values=".35;.35;1;1;.35" keyTimes="0;.08;.18;.85;1" dur="7s" begin="0.54s" repeatCount="indefinite"/>
+    </circle><line x1="1010" y1="180" x2="1121.5" y2="169.7" stroke="#D9A520" stroke-opacity=".15" stroke-width="1.6">
+      <animate attributeName="stroke-opacity" values=".15;.15;.8;.8;.15" keyTimes="0;.08;.18;.85;1" dur="7s" begin="0.72s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="1121.5" cy="169.7" r="11" fill="#0d1a4f" stroke="#475569" stroke-width="3"/>
+    <circle cx="1121.5" cy="169.7" r="5" fill="#475569" opacity=".35">
+      <animate attributeName="opacity" values=".35;.35;1;1;.35" keyTimes="0;.08;.18;.85;1" dur="7s" begin="0.72s" repeatCount="indefinite"/>
+    </circle><line x1="1010" y1="180" x2="1117.7" y2="210.7" stroke="#D9A520" stroke-opacity=".15" stroke-width="1.6">
+      <animate attributeName="stroke-opacity" values=".15;.15;.8;.8;.15" keyTimes="0;.08;.18;.85;1" dur="7s" begin="0.90s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="1117.7" cy="210.7" r="11" fill="#0d1a4f" stroke="#DB2777" stroke-width="3"/>
+    <circle cx="1117.7" cy="210.7" r="5" fill="#DB2777" opacity=".35">
+      <animate attributeName="opacity" values=".35;.35;1;1;.35" keyTimes="0;.08;.18;.85;1" dur="7s" begin="0.90s" repeatCount="indefinite"/>
+    </circle><line x1="1010" y1="180" x2="1099.4" y2="247.5" stroke="#D9A520" stroke-opacity=".15" stroke-width="1.6">
+      <animate attributeName="stroke-opacity" values=".15;.15;.8;.8;.15" keyTimes="0;.08;.18;.85;1" dur="7s" begin="1.08s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="1099.4" cy="247.5" r="11" fill="#0d1a4f" stroke="#A16207" stroke-width="3"/>
+    <circle cx="1099.4" cy="247.5" r="5" fill="#A16207" opacity=".35">
+      <animate attributeName="opacity" values=".35;.35;1;1;.35" keyTimes="0;.08;.18;.85;1" dur="7s" begin="1.08s" repeatCount="indefinite"/>
+    </circle><line x1="1010" y1="180" x2="1069.0" y2="275.2" stroke="#D9A520" stroke-opacity=".15" stroke-width="1.6">
+      <animate attributeName="stroke-opacity" values=".15;.15;.8;.8;.15" keyTimes="0;.08;.18;.85;1" dur="7s" begin="1.26s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="1069.0" cy="275.2" r="11" fill="#0d1a4f" stroke="#2563eb" stroke-width="3"/>
+    <circle cx="1069.0" cy="275.2" r="5" fill="#2563eb" opacity=".35">
+      <animate attributeName="opacity" values=".35;.35;1;1;.35" keyTimes="0;.08;.18;.85;1" dur="7s" begin="1.26s" repeatCount="indefinite"/>
+    </circle><line x1="1010" y1="180" x2="1030.6" y2="290.1" stroke="#D9A520" stroke-opacity=".15" stroke-width="1.6">
+      <animate attributeName="stroke-opacity" values=".15;.15;.8;.8;.15" keyTimes="0;.08;.18;.85;1" dur="7s" begin="1.44s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="1030.6" cy="290.1" r="11" fill="#0d1a4f" stroke="#0891b2" stroke-width="3"/>
+    <circle cx="1030.6" cy="290.1" r="5" fill="#0891b2" opacity=".35">
+      <animate attributeName="opacity" values=".35;.35;1;1;.35" keyTimes="0;.08;.18;.85;1" dur="7s" begin="1.44s" repeatCount="indefinite"/>
+    </circle><line x1="1010" y1="180" x2="989.4" y2="290.1" stroke="#D9A520" stroke-opacity=".15" stroke-width="1.6">
+      <animate attributeName="stroke-opacity" values=".15;.15;.8;.8;.15" keyTimes="0;.08;.18;.85;1" dur="7s" begin="1.62s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="989.4" cy="290.1" r="11" fill="#0d1a4f" stroke="#7c3aed" stroke-width="3"/>
+    <circle cx="989.4" cy="290.1" r="5" fill="#7c3aed" opacity=".35">
+      <animate attributeName="opacity" values=".35;.35;1;1;.35" keyTimes="0;.08;.18;.85;1" dur="7s" begin="1.62s" repeatCount="indefinite"/>
+    </circle><line x1="1010" y1="180" x2="951.0" y2="275.2" stroke="#D9A520" stroke-opacity=".15" stroke-width="1.6">
+      <animate attributeName="stroke-opacity" values=".15;.15;.8;.8;.15" keyTimes="0;.08;.18;.85;1" dur="7s" begin="1.80s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="951.0" cy="275.2" r="11" fill="#0d1a4f" stroke="#059669" stroke-width="3"/>
+    <circle cx="951.0" cy="275.2" r="5" fill="#059669" opacity=".35">
+      <animate attributeName="opacity" values=".35;.35;1;1;.35" keyTimes="0;.08;.18;.85;1" dur="7s" begin="1.80s" repeatCount="indefinite"/>
+    </circle><line x1="1010" y1="180" x2="920.6" y2="247.5" stroke="#D9A520" stroke-opacity=".15" stroke-width="1.6">
+      <animate attributeName="stroke-opacity" values=".15;.15;.8;.8;.15" keyTimes="0;.08;.18;.85;1" dur="7s" begin="1.98s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="920.6" cy="247.5" r="11" fill="#0d1a4f" stroke="#d97706" stroke-width="3"/>
+    <circle cx="920.6" cy="247.5" r="5" fill="#d97706" opacity=".35">
+      <animate attributeName="opacity" values=".35;.35;1;1;.35" keyTimes="0;.08;.18;.85;1" dur="7s" begin="1.98s" repeatCount="indefinite"/>
+    </circle><line x1="1010" y1="180" x2="902.3" y2="210.7" stroke="#D9A520" stroke-opacity=".15" stroke-width="1.6">
+      <animate attributeName="stroke-opacity" values=".15;.15;.8;.8;.15" keyTimes="0;.08;.18;.85;1" dur="7s" begin="2.16s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="902.3" cy="210.7" r="11" fill="#0d1a4f" stroke="#dc2626" stroke-width="3"/>
+    <circle cx="902.3" cy="210.7" r="5" fill="#dc2626" opacity=".35">
+      <animate attributeName="opacity" values=".35;.35;1;1;.35" keyTimes="0;.08;.18;.85;1" dur="7s" begin="2.16s" repeatCount="indefinite"/>
+    </circle><line x1="1010" y1="180" x2="898.5" y2="169.7" stroke="#D9A520" stroke-opacity=".15" stroke-width="1.6">
+      <animate attributeName="stroke-opacity" values=".15;.15;.8;.8;.15" keyTimes="0;.08;.18;.85;1" dur="7s" begin="2.34s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="898.5" cy="169.7" r="11" fill="#0d1a4f" stroke="#0d9488" stroke-width="3"/>
+    <circle cx="898.5" cy="169.7" r="5" fill="#0d9488" opacity=".35">
+      <animate attributeName="opacity" values=".35;.35;1;1;.35" keyTimes="0;.08;.18;.85;1" dur="7s" begin="2.34s" repeatCount="indefinite"/>
+    </circle><line x1="1010" y1="180" x2="909.7" y2="130.1" stroke="#D9A520" stroke-opacity=".15" stroke-width="1.6">
+      <animate attributeName="stroke-opacity" values=".15;.15;.8;.8;.15" keyTimes="0;.08;.18;.85;1" dur="7s" begin="2.52s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="909.7" cy="130.1" r="11" fill="#0d1a4f" stroke="#4f46e5" stroke-width="3"/>
+    <circle cx="909.7" cy="130.1" r="5" fill="#4f46e5" opacity=".35">
+      <animate attributeName="opacity" values=".35;.35;1;1;.35" keyTimes="0;.08;.18;.85;1" dur="7s" begin="2.52s" repeatCount="indefinite"/>
+    </circle><line x1="1010" y1="180" x2="934.5" y2="97.2" stroke="#D9A520" stroke-opacity=".15" stroke-width="1.6">
+      <animate attributeName="stroke-opacity" values=".15;.15;.8;.8;.15" keyTimes="0;.08;.18;.85;1" dur="7s" begin="2.70s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="934.5" cy="97.2" r="11" fill="#0d1a4f" stroke="#65a30d" stroke-width="3"/>
+    <circle cx="934.5" cy="97.2" r="5" fill="#65a30d" opacity=".35">
+      <animate attributeName="opacity" values=".35;.35;1;1;.35" keyTimes="0;.08;.18;.85;1" dur="7s" begin="2.70s" repeatCount="indefinite"/>
+    </circle><line x1="1010" y1="180" x2="969.5" y2="75.6" stroke="#D9A520" stroke-opacity=".15" stroke-width="1.6">
+      <animate attributeName="stroke-opacity" values=".15;.15;.8;.8;.15" keyTimes="0;.08;.18;.85;1" dur="7s" begin="2.88s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="969.5" cy="75.6" r="11" fill="#0d1a4f" stroke="#b45309" stroke-width="3"/>
+    <circle cx="969.5" cy="75.6" r="5" fill="#b45309" opacity=".35">
+      <animate attributeName="opacity" values=".35;.35;1;1;.35" keyTimes="0;.08;.18;.85;1" dur="7s" begin="2.88s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1010" cy="180" r="46" fill="#0a1847" stroke="#D9A520" stroke-width="2"/>
+    <text class="raqam" x="1010" y="196" text-anchor="middle">17</text>
+    <text class="yorliq" x="1010" y="330" text-anchor="middle">17 LAVOZIM · TENG HUQUQLI</text>
+  </g>
+</svg>
